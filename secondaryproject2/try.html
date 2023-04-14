@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background video with content on top</title>
+  <style>
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+    .content-container {
+      position: relative;
+      z-index: 1;
+      /* Add other styles as needed */
+    }
+  </style>
+</head>
+<body>
+  <video id="bg-video" autoplay loop muted>
+    <source src="your-video-file.mp4" type="video/mp4">
+  </video>
+  <div class="content-container">
+    <!-- Your content goes here -->
+  </div>
+</body>
+</html>

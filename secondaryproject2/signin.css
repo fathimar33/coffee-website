@@ -1,0 +1,62 @@
+.container{
+    margin-left: 450px;
+    margin-top: 50px;
+    border: solid white 2px;
+    box-shadow: 2px 2px 10px rgba(51, 8, 8, 0.897);
+    width: 400px;
+    height: 450px;
+    padding-left: 30PX;
+    background-color: rgb(68, 35, 35);
+    color: rgb(252, 243, 241);
+     
+ }
+ p{
+    margin-left: 700px;
+ }
+ a{
+    color: rgb(46, 16, 16);
+ }
+ body {
+   
+    background-color: white;
+    /* background-image: url(images/YouTube\ Thumbnail\ \(1\).png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(249, 249, 250);
+    background-color: rgb(17, 6, 6);
+    margin-right: 20PX;
+  }
+  input[type="text"],
+  input[type="password"] {
+    background-color: #f5ecec;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+  }
+  input[type="submit"]{
+    background-color: rgba(232, 214, 214, 0.884);
+    color: white;
+    box-shadow: 1px 1px 1px white;
+    border-color: transparent;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    margin-left: 24px;
+    /* margin-bottom: 20px; */
+  }
+#header{
+background-color: navy;
+}
+
+input[type="submit"]:hover{
+  background-color: aliceblue;
+  color: rgb(19, 3, 3);
+  cursor: pointer;
+}

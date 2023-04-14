@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT US</title>
+	<style>
+		body {
+			font-family: cursive;
+		}
+		h1 {
+			    background-color: #0e0404;
+                padding: 20px;
+                color: #f4f4f4;
+                font-family: arduino;
+                text-align: center;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+            
+		}
+		label {
+            
+			margin-top: 10px;
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		input[type="text"], input[type="email"], textarea {
+			padding: 5px;
+			margin: 5px 0;
+			width: 400px;
+			/* border: 1px solid #ddd; */
+			border-radius: 5px;
+            /* border: maroon; */
+		}
+		textarea {
+			height: 100px;
+		}
+		.btn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 8px 16px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			border-radius: 4px;
+			cursor: pointer;
+			margin-top: 10px;
+            border: transparent;
+		}
+		.btn:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>CONTACT US</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<button type="submit" class="btn">Send Message</button>
+	</form>
+	<footer>
+		<p>Oragana &copy; 2023</p>
+	</footer>
+</body>
+</html>
+
